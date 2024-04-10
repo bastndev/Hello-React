@@ -31,8 +31,8 @@ npx astro add react
 ```
 npx astro add tailwind
 ```
-3. !important
->- Every time wht you export a `function` of react
+> [!IMPORTANT]
+>- Every time wht you export a `export default App;` of react
 ```
 // import React from "react";
 import "./css/App.css";
