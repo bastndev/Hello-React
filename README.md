@@ -1,4 +1,4 @@
-# Hello React Tips ![picture alt](https://i.makeagif.com/media/11-21-2022/imisbt.gif)  
+# Hello React Tips <img src="https://i.makeagif.com/media/11-21-2022/imisbt.gif" alt="picture alt" width="25px" height="25">
 
 >- Important `components` Uppercase  - 
 
