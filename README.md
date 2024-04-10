@@ -31,7 +31,7 @@ npx astro add tailwind
 > 1. in Astro `import App from '../components/App';`
 ```jsx
 function App() {
-  return <h1>Second Export Coffe</h1>;
+  return <h1>First Export Coffe</h1>;
 }
 
 export default Coffe;
@@ -40,6 +40,12 @@ export default Coffe;
 ```jsx
 export function App() {
   return <h1>Second Export Coffe</h1>;
+}
+```
+> 3. in Astro `import App  from '../components/App';`
+```jsx
+export default function App() {
+  return <h1>Third Export Coffe</h1>;
 }
 ```
 
