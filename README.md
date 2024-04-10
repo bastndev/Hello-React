@@ -1,10 +1,3 @@
-clear
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\1_shell.omp.json" | Invoke-Expression
-
-Import-Module -Name Terminal-Icons
-
-
----------------
 # Hello React
 
 >- Inside of your Astro project, you'll see the following folders and files:
@@ -49,3 +42,5 @@ export function Coffe() {
   return <h1>Second Export Coffe</h1>;
 }
 ```
+
+3. Tip
