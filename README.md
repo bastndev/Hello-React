@@ -36,13 +36,13 @@ function App() {
 
 export default Coffe;
 ```
-> 2. in Astro `import {App}  from '../components/App';`
+> 2. in Astro `import {App}  from '../components/App';` Recommend
 ```jsx
 export function App() {
   return <h1>Second Export Coffe</h1>;
 }
 ```
-> 3. in Astro `import App  from '../components/App';`
+> 3. in Astro `import App  from '../components/App';` Caution
 ```jsx
 export default function App() {
   return <h1>Third Export Coffe</h1>;
