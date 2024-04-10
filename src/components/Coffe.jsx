@@ -1,4 +1,5 @@
-import './css/Coffe.css';
+// TODO: option 1
+/* import './css/Coffe.css';
 
 export function Coffe() {
   const coffeHot = true;
@@ -7,4 +8,12 @@ export function Coffe() {
   } else {
     return <h1>The Coffe is cold</h1>;
   }
+
+
+} */
+
+// TODO: Second option
+export function Coffe() {
+  const coffeHot = false;
+  return <h1>{coffeHot ? "Coffe True" : "Coffe False"}</h1>;
 }
