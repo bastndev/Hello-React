@@ -1,12 +1,3 @@
-// import React from "react";
-import "./css/App.css";
-
-function App() {
-  return (
-    <div className="App">
-      <h1 className="h1 text-black">Hello World! 222</h1>
-    </div>
-  );
+export function App() {
+  return <h1>Second Export Coffe</h1>;
 }
-
-export default App;

@@ -26,19 +26,19 @@ npx astro add tailwind
 ```
 
 > [!TIP]
->- Every time wht you export a `export default App;` of react
+>- Every time wht you export a `export` of react
 
-> 1. in Astro `import Coffe from '../components/Coffe';`
+> 1. in Astro `import App from '../components/App';`
 ```jsx
-function Coffe() {
+function App() {
   return <h1>Second Export Coffe</h1>;
 }
 
 export default Coffe;
 ```
-> 2. in Astro `import {Coffe}  from '../components/Coffe';`
+> 2. in Astro `import {App}  from '../components/App';`
 ```jsx
-export function Coffe() {
+export function App() {
   return <h1>Second Export Coffe</h1>;
 }
 ```
