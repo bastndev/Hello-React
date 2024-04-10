@@ -31,3 +31,11 @@ npx astro add react
 ```
 npx astro add tailwind
 ```
+3. !important
+``
+// import React from "react";
+``
+>- Every time wht you export a `function` of react
+```
+export default App;
+```
