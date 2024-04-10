@@ -1,4 +1,4 @@
-import "./css/poke.css"
+import "./css/poke.css";
 
 const pokemon = [
   {
@@ -14,9 +14,9 @@ const pokemon = [
 ];
 
 export function Pokemon() {
-  return pokemon.map((item) => {
+  return pokemon.map((item, id) => {
     return (
-      <div>
+      <div key={id}>
         <h1>{item.name}</h1>
         <img className="pokeImg" src={item.img} alt="" />
       </div>
