@@ -1,6 +1,6 @@
-# Hello React
+# Hello React Tips ![picture alt](https://i.makeagif.com/media/11-21-2022/imisbt.gif)  
 
->- Inside of your Astro project, you'll see the following folders and files:
+>- Important `components` Uppercase  - 
 
 ```text
 /
