@@ -31,7 +31,8 @@ npx astro add react
 ```
 npx astro add tailwind
 ```
-> [!IMPORTANT]
+
+> [!TIP]
 >- Every time wht you export a `export default App;` of react
 
 >- 1. in Astro `import Coffe from '../components/Coffe';`
