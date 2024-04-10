@@ -3,6 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import { App } from "../components/App";
 import { Coffe } from "../components/Coffe";
 import { Data } from "../components/Data";
+
+import { User } from "../components/User";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -18,4 +20,9 @@ import { Data } from "../components/Data";
   <div class="bg-green-500">
     <Data />
   </div>
+  <div class="bg-yellow-500 w-24">
+    <User client:load />
+  </div>
+
+  <div class="bg-orange-600"></div>
 </Layout>
