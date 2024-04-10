@@ -6,6 +6,6 @@
 
 // Second Option
 
-export function Component({ name }) {
-  return <h1>{`Hello ${name}`}</h1>;
+export function Component({ name, date }) {
+  return <h1>{`Hello ${name}, You have ${date}`}</h1>;
 }
