@@ -1,9 +1,11 @@
 ---
-import { Hook } from "../components/Hook";
+// import { Hook } from "../components/Hook";
+import { Likes } from "../components/Likes";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <h1>Hooks React</h1>
-  <Hook client:load/>
+  <h1>Hooks React + Likes</h1>
+  <!-- <Hook client:load/> -->
+  <Likes client:load/>
 </Layout>
