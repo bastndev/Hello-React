@@ -1,3 +1,8 @@
 export function Coffe() {
-  return <h1>Second Export Coffe</h1>;
+  const coffeHot = false;
+  if (coffeHot) {
+    return <h1>The Coffe is hot</h1>;
+  } else {
+    return <h1>The Coffe is cold</h1>;
+  }
 }

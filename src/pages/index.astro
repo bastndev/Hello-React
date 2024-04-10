@@ -1,15 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { App } from "../components/App";
-import { Coffe } from "../components/Coffe";
+import {Coffe}  from "../components/Coffe";
 ---
 
 <Layout title="Welcome to Astro.">
   <h1>Hello React</h1>
   <div class="bg-red-400">
     <App client:load />
-    <App client:load />
-    <App client:load />
-    <Coffe />
+  </div>
+  <div class="bg-blue-500">
+    <h1>logo</h1>
+    <Coffe client:load/>
   </div>
 </Layout>
