@@ -2,6 +2,9 @@
   color: aqua;
   background-color: blueviolet;
   padding: 10px;
+  &:hover{
+    background-color: chartreuse;
+  }
 }
 .on {
   background-color: blue;
