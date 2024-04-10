@@ -1,0 +1,11 @@
+.card {
+  color: aqua;
+  background-color: blueviolet;
+  padding: 10px;
+}
+.on {
+  background-color: blue;
+}
+.off {
+  background-color: red;
+}
