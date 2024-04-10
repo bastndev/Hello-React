@@ -4,5 +4,13 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <Acerca name="Lucas" />
+  <Acerca
+    name="Lucas "
+    date={25}
+    address={{
+      address: "Jr. Piorala",
+      city: "Juliaca",
+      country: "Peru",
+    }}
+  />
 </Layout>
