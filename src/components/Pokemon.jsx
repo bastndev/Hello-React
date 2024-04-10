@@ -13,7 +13,7 @@ const pokemon = [
   },
 ];
 
-export function Pokemon() {
+/* export function Pokemon() {
   return pokemon.map((item, id) => {
     return (
       <div key={id}>
@@ -22,4 +22,18 @@ export function Pokemon() {
       </div>
     );
   });
+} */
+
+// TODO: second option
+export function Pokemon() {
+  return pokemon
+    .filter((item) => item.id === 2)
+    .map((item) => {
+      return (
+        <div>
+          <h1>{item.name}</h1>
+          <img className="pokeImg" src={item.img} alt="" />
+        </div>
+      );
+    });
 }
