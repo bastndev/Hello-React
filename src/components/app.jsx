@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css'; // Suponiendo que los estilos están en App.css
+import "./css/App.css";
 
 function App() {
   return (
