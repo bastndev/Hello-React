@@ -34,18 +34,16 @@ npx astro add tailwind
 > [!IMPORTANT]
 >- Every time wht you export a `export default App;` of react
 
-1. in Astro `import Coffe from '../components/Coffe';`
+>-1. in Astro `import Coffe from '../components/Coffe';`
 ```
-// First option;
 function Coffe() {
   return <h1>Second Export Coffe</h1>;
 }
 
 export default Coffe;
 ```
-2. in Astro `import {Coffe}  from '../components/Coffe';`
+>-2. in Astro `import {Coffe}  from '../components/Coffe';`
 ```
-//Second option
 export function Coffe() {
   return <h1>Second Export Coffe</h1>;
 }
