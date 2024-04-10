@@ -24,7 +24,7 @@ Import-Module -Name Terminal-Icons
 ```
 1. install React with
 ```
- npx astro add react  
+npx astro add react  
 ```
 
 2. add tailwind
