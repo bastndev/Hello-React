@@ -1,7 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { App } from "../components/App";
-import {Coffe}  from "../components/Coffe";
+import { Coffe } from "../components/Coffe";
+import { Data } from "../components/Data";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -11,6 +12,10 @@ import {Coffe}  from "../components/Coffe";
   </div>
   <div class="bg-blue-500">
     <h1>logo</h1>
-    <Coffe client:load/>
+    <Coffe client:load />
+  </div>
+  <br />
+  <div class="bg-green-500">
+    <Data />
   </div>
 </Layout>
